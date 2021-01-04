@@ -26,7 +26,7 @@
 // #define V6_330_TITAN_NO_TMC 1
 // #define V6_330_NO_TITAN_TMC 1
 // #define V6_330_NO_TITAN_NO_TMC 1
-// #define V6_400_TITAN_TMC 1
+ #define V6_400_TITAN_TMC 1
 // #define V6_400_NO_TITAN_TMC 1
 // #define V6_500_TITAN_TMC 1
 
@@ -59,7 +59,7 @@
 
 // #define TFT_LVGL_UI
 // #define TFT_CLASSIC_UI
-// #define TFT_COLOR_UI
+ #define TFT_COLOR_UI
 
 #if V6_330_TITAN_TMC
   #define MOTHERBOARD BOARD_CHITU3D_V6
@@ -1245,7 +1245,7 @@
 #define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
 
 // Force the use of the probe for Z-axis homing
-//#define USE_PROBE_FOR_Z_HOMING
+#define USE_PROBE_FOR_Z_HOMING
 
 /**
  * Z_MIN_PROBE_PIN
